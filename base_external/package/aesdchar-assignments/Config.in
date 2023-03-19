@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_AESDCHAR_ASSIGNMENTS
+	bool "aesdchar-assignments"
+	depends on BR2_LINUX_KERNEL
+	help
+	  Includes the aesdchar driver folder.
